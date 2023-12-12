@@ -8,6 +8,10 @@ telefons.update({'Jānis':22222245})
 print('Šis ir Annas telefons:',telefons['Anna'])
 print('Šis ir Jāņa telefons:',telefons['Jānis'])
 print('Šis ir Ivara telefons:',telefons['Ivars'])
+for key, value in telefons.items():
+    print(key, ":", value)
+print(sum(telefons.values()))
+print(len(telefons))
 
 #Izveidot vārdnīcu ar atslēhu virkni un fromkeys() metodi
 #vārdnīca nenorādot ierakstu vērtības
